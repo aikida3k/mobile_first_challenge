@@ -1,0 +1,22 @@
+.column {
+    width: 30%;
+    border: 1px solid #bada55;
+    display: inline-block;
+    height: 100px;
+}
+
+@media (min-width: 992px ) {
+    .column {
+        width: 30%;
+        margin: 10px;
+        background-color: #000;
+    }
+}
+
+@media (max-width: 991px) {
+    .column {
+        width:100%;
+        margin: 20px 0px;
+        background-color: blue;
+    }
+}
